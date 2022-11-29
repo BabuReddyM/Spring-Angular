@@ -14,7 +14,7 @@ public class ConsumerDemo {
 		
 		List<Integer> numberList = Arrays.asList(12,13,17,10);
 		
-		numberList.forEach(t -> System.out.println("The o/p is: " +t));
+		numberList.stream().forEach(t -> System.out.println("The o/p is: " +t));
  
 	}
 
