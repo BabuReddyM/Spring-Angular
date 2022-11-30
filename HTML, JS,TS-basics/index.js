@@ -47,6 +47,16 @@ function counting(){
     for(let i =1; i<10; i++){
         console.log(i);
     }
+
+
 }
+    var car = new Object();
+    car.brand = "Mercedes"
+    car.model="C class"
+    car.price = "60,00,000";
+    console.log(car);
+    //Arrays
+    var names = ["bhrath", "Bobby", "Abhishek"];
+    console.log(names);
 counting ();
 creditScore(800);
