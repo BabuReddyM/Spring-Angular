@@ -6,11 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn JS</title>
 </head>
-<body>
-    <h1>Javascript Basics training</h1>
-    <script src="index.js">
-        
-    </script>
+<body style="background-color: #E25858;">
+    <h1 style="border-style: double; border-color:brown; text-align:center; background-color: #734800; color:beige;">
+    Javascript Basics training</h1>
+    <script src="index.js"></script>
+    <br/>
+    <br/>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim fuga, 
+                aliquid expedita explicabo perspiciatis neque ullam tempora, obcaecati 
+                autem id ad temporibus dolores officiis, mollitia ab corrupti vero laborum earum.</p>
+                
+        </div>
+        <div style = "border-style: groove; border-color: white;">
+        <h2
+            style="border-style: double; border-color:brown; text-align:center;
+            background-color: #734800 ; color:beige;">
+            User Registration
+            
+        </h2>
+        <label for="firstname">Firstname</label>
+        <br />
+        <input style="margin-bottom: 5px; margin-left:15px; margin-top: 5px;" type ="text"
+        id="firstname"
+            placeholder="Enter your first name" />
+            <br />
+            <label for="Lastname">Lastname</label>
+            <br/>
+            <input style="margin-bottom: 5px;margin-left:15px; margin-top:5px;"type ="text"
+            id="Lastname"
+            placeholder="Enter your Last name"/>
+            <br />
+            <label for ="email">Email</label>
+            <br />
+            <input style="margin-bottom:5px; margin-left:15px; margin-top:5px" type="text"
+            id="email"
+                placeholder="Enter your Email Id" />
+                
+
+            <br />
+            <label>Enter your DOB</label>
+            <input type="date" style="margin-bottom: 5px;margin-left:15px;margin-top:5px;"
+            id="dob"/>
+
+            <br />
+            <label style="margin-left:10px ;" for="gender">Gender</label>
+            <br />
+            <input style="margin-left: 10px;" type="radio" name="gender" value="Male" id="gender">Male
+            <br />
+            <input style="margin-left: 10px;" type="radio" name="gender" value="Female" id="gender">Female
+            <br />
+            <input style="margin-left: 10px;" type="radio" name="gender" value="Others" id="gender">Others
+            <br />
+
+            <br>
+            <label>Choose your fav Language</label>
+            <br />
+            <input type="checkbox" id="lang" value="Java">Java
+            <input type="checkbox" id="lang" value="Javascript">Javascript
+            <input type="checkbox" id="lang" value="Python">Python
+            <br />
+            <button onClick="Greet()" type="submit">Submit</button>
+            <!-- //anchor tags -->
+            <a href="https://www.google.com/">next page</a>
+
+
+
+
+        </div>
+        <div>
+            <ol style="border-style: groove; border-color: black;">
+            <!-- ordered List -->
+            <li>Boil 2 cups of water</li>
+            <li>Chop some Onions and Garlic</li>
+            <li>Fry the vegetables </li>
+            </ol>
+            <ul>
+                <!-- unordered list -->
+                <li>Get Grocery</li>
+                <li>Get car washed</li>
+                <li>Take my dog to the vet</li>
+            </ul>
+        </div>
+
+
+
     
 </body>
 </html>
